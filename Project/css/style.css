@@ -13,7 +13,7 @@ body {
     text-align: center;
 }
 
-#header .selecao {
+#header .subtitle {
     width: 100%;
     height: 23px;
     padding-top: 64px;
@@ -32,7 +32,7 @@ body {
     opacity: 1;
 }
 
-#header .aviso {
+#header .notice {
     width: 100%;
     top: 164px;
     margin: 0;
