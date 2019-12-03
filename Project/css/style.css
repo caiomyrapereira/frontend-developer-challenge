@@ -70,3 +70,122 @@ body {
     border: 1px solid #707070;
     border-radius: 4px;
 }
+
+
+/*-- Main --*/
+
+#content {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+#content .textProducts {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+    font: Bold 18px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+#content .products {
+    margin: auto;
+    width: 100%;
+    max-width: 931px;
+    height: 100%;
+    min-height: 740px;
+    border: 1px solid black;
+}
+
+#content .MoreProducts {
+    width: 260px;
+    height: 39px;
+    margin-top: 42px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+    font: Regular 16px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+}
+
+#content .share {
+    width: 100%;
+    text-align: center;
+    margin-top: 166px;
+}
+
+#content .share h1 {
+    margin: 0;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font: Bold 18px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+}
+
+#content .share p {
+    margin: 44px 0px 34px 0px;
+    font: Regular 14px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+#content .form {
+    width: 100%;
+    max-width: 740px;
+    margin: auto;
+}
+
+#content .form div {
+    width: 50%;
+    float: left;
+    padding-bottom: 50px;
+}
+
+#content .form label {
+    float: left;
+    display: block;
+    font: Regular 12px/14px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+}
+
+#content .form input {
+    width: 100%;
+    max-width: 340px;
+    height: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+#content .form .name input {
+    float: left;
+}
+
+#content .form .email input {
+    float: right;
+}
+
+#content .form .email label {
+    position: relative;
+    left: 25px;
+}
+
+#content .form .submit {
+    width: 260px;
+    height: 39px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+    font: Regular 16px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+}
