@@ -57,8 +57,13 @@ body {
     margin-left: 31px;
 }
 
+#header .menu ul .firstButton {
+    margin-left: 0px;
+}
+
 #header .menu ul li button {
-    width: 160px;
+    width: 100%;
+    max-width: 160px;
     height: 40px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     font: 14px/16px Helvetica;
@@ -100,7 +105,8 @@ body {
 }
 
 #content .MoreProducts {
-    width: 260px;
+    width: 100%;
+    max-width: 260px;
     height: 39px;
     margin-top: 42px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -175,11 +181,12 @@ body {
 
 #content .form .email label {
     position: relative;
-    left: 25px;
+    left: 28px;
 }
 
 #content .form .submit {
-    width: 260px;
+    width: 100%;
+    max-width: 260px;
     height: 39px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
