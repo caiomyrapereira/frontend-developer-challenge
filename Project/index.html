@@ -38,14 +38,14 @@
                 Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!
             </p>
         </div>
-        <form class="form" action="#">
+        <form data-js="form" class="form" action="#">
             <div class="name">
                 <label>Nome do seu amigo:</label>
-                <input type="text">
+                <input data-js="friendName" type="text" size="30" name="replyto" required maxlength="75">
             </div>
             <div class="email">
                 <label>E-mail:</label>
-                <input type="text">
+                <input data-js="friendEmail" type="email" size="30" name="replyto" required maxlength="75">
             </div>
             <button class="submit"> Enviar agora </button>
         </form>
@@ -54,6 +54,7 @@
     <footer id="footer">
         <p class="test">Testando suas habilidades em HTML, CSS e JS.<br> Linx Impulse<br> 2019</p>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
