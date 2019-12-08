@@ -101,7 +101,24 @@ body {
     max-width: 931px;
     height: 100%;
     min-height: 740px;
-    border: 1px solid black;
+    overflow: auto;
+}
+
+
+/* product -> product.css  */
+
+#content .products .product {
+    position: relative;
+    width: 200px;
+    height: 350px;
+    margin-bottom: 39px;
+    border: 0.1px solid white;
+    float: left;
+    text-align: left;
+}
+
+#content .products .product:hover {
+    border: 0.1px solid #888888;
 }
 
 #content .MoreProducts {
