@@ -9,11 +9,12 @@
                 app.initProducts();
                 app.initEvent();
             },
-            initEvent: () => {
-                app.sendFriend();
-            },
             initProducts: () => {
                 app.getProducts(app.getPage());
+            },
+            initEvent: () => {
+                app.sendFriend();
+                app.moreProducts();
             },
             getProducts: (page) => {
                 const ajax = new XMLHttpRequest();
@@ -46,6 +47,15 @@
                    <button class="purchase">Comprar</button>
                  </div>
                     `;
+            },
+            moreProducts: () => {
+                const $moreProducts = doc.querySelector('[data-js="moreProducts"]');
+                $moreProducts.addEventListener('click', app.addProducts);
+            },
+            addProducts: (e) => {
+                e.preventDefault();
+                app.getProducts(app.getPage());
+
             },
             getPage: () => ++page,
             sendFriend: () => {
