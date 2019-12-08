@@ -72,3 +72,40 @@
 .product.card8 {
     margin-left: 42px;
 }
+
+
+/* cards se adaptado a página */
+
+@media only screen and (min-width:521px) and (max-width:950px) {
+    #content .products {
+        max-width: 500px;
+    }
+    .product.card1,
+    .product.card3,
+    .product.card5,
+    .product.card7 {
+        margin-left: 0px;
+    }
+    .product.card2,
+    .product.card4,
+    .product.card6,
+    .product.card8 {
+        margin-left: 98px;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    #content .products {
+        max-width: 200px;
+    }
+    .product.card1,
+    .product.card2,
+    .product.card3,
+    .product.card4,
+    .product.card5,
+    .product.card6,
+    .product.card7,
+    .product.card8 {
+        margin-left: 0px;
+    }
+}
