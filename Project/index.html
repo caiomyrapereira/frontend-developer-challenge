@@ -19,17 +19,17 @@
         <p class="notice">Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</p>
         <nav class="menu">
             <ul type="none">
-                <li class="firstButton"><button onclick="window.location.href='#'">Conheça a Linx</button></li>
-                <li><button onclick="window.location.href='#'">Ajude o algorítimo</button></li>
-                <li><button onclick="window.location.href='#'">Seus produtos</button></li>
-                <li><button onclick="window.location.href='#'">Compartilhe</button></li>
+                <li class="firstButton"><button onclick="window.location.href='https://www.linx.com.br/'">Conheça a Linx</button></li>
+                <li><button onclick="window.location.href='https://github.com/caiomyrapereira/frontend-developer-challenge2'">Ajude o algorítimo</button></li>
+                <li><button onclick="window.location.href='#product'">Seus produtos</button></li>
+                <li><button onclick="window.location.href='#share'">Compartilhe</button></li>
             </ul>
         </nav>
     </header>
 
     <main id="content">
         <p class="textProducts">Sua seleção especial</p>
-        <div data-js="products" class="products">
+        <div data-js="products" id="product" class="products">
             <!-- list of products--->
         </div>
         <button data-js="moreProducts" class="MoreProducts">Ainda mais produtos aqui!</button>
@@ -40,7 +40,7 @@
                 Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!
             </p>
         </div>
-        <form data-js="form" class="form" action="#">
+        <form id="share" data-js="form" class="form" action="#">
             <div class="name">
                 <label>Nome do seu amigo:</label>
                 <input data-js="friendName" type="text" size="30" name="replyto" required maxlength="75">

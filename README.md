@@ -1,4 +1,15 @@
-# frontend-developer-challenge2
+
+# instrução para roda o projeto:
+
+$cd project
+
+$npm
+
+$npm start  ou $nodemon server.js
+
+local do projeto :http://localhost:8080
+
+# ///////////////////////////////////////
 
 # Desafio | Frontend Developer
 
