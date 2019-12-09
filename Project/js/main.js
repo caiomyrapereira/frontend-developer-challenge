@@ -54,8 +54,13 @@
             },
             addProducts: (e) => {
                 e.preventDefault();
-                app.getProducts(app.getPage());
-
+                $('[data-js="products"]').loading('toggle');
+                $('[data-js="moreProducts"]').loading('toggle');
+                setTimeout(function() {
+                    $('[data-js="moreProducts"]').loading('stop');
+                    $('[data-js="products"]').loading('stop');
+                    app.getProducts(app.getPage());
+                }, 1000);
             },
             getPage: () => ++page,
             sendFriend: () => {
