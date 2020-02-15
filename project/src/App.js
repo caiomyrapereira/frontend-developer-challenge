@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-import Header from './Components/Header';
+import Container from './Components/Container'
 
 class App extends React.Component{
   
@@ -14,9 +14,7 @@ class App extends React.Component{
 
   render(){
     return (
-      <div className="App">
-        <Header /> 
-      </div>
+        <Container /> 
     );
   }
 }
