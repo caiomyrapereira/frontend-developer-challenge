@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css'
+import Button from '../Button';
 
 const Menu =(props)=>(
         <div className="menu"> 
@@ -13,7 +14,7 @@ const Menu =(props)=>(
                     'Compartilhe'
                   ]
                   .map((item,index,arr)=>{
-                    return <li key={index} > <button> {item} </button> </li>
+                    return <li key={index} > <Button> {item} </Button> </li>
                   }) 
                 }
              </ul>
