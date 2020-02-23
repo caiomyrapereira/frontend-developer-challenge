@@ -8,12 +8,20 @@
 .top .selecao{
 	margin:0;
 	padding-top: 69px;
+	font-family: Regular 20px/24px Helvetica Neue;
 }
 
 .top .title{
 	margin:0;
+	font-family: Bold 40px/49px Helvetica Neue;
+}
+
+.top .aviso{
+	font-family: Regular 14px/16px Helvetica Neue;
 }
 
 .font{
-	color:#FFFFFF
+	letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
 }
