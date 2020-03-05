@@ -1,9 +1,10 @@
 import React from 'react';
 import './style.css';
+import SendFriend from '../sendFriend';
 
 const Main = (props)=>(
         <div className="main">
-          Main
+           <SendFriend />
         </div>
 );
 
