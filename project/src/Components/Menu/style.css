@@ -1,12 +1,19 @@
- .menu{
+ .flex-menu{
 	width: 100%;
 	max-width: 800px;
 	margin:auto;
 	margin-top: 50px;
+	display: flex;
+	flex-direction:wrap;
+	justify-content: space-around;
 }
 
-.menu li{
-  float:left;
-  margin-right: 30px;
+
+@media screen and (max-width:800px){
+    .flex-menu{
+	  height: 250px;
+	  flex-direction:column;
+	  margin-bottom:50px;
+	}
 }
 

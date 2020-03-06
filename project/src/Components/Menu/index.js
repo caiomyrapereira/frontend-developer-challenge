@@ -3,23 +3,23 @@ import './style.css'
 import Button from '../Button';
 
 const Menu =(props)=>(
-        <div className="menu"> 
-           <nav>
-             <ul type="none" >
-                { 
-              	  [
-              	    'Conheça a Linx',
-                    'Ajude o algorítimo',
-                    'Seus produtos',
-                    'Compartilhe'
-                  ]
-                  .map((item,index,arr)=>{
-                    return <li key={index} > <Button> {item} </Button> </li>
-                  }) 
-                }
-             </ul>
-           </nav> 
-       </div>
+        <div>
+          <nav className="flex-menu"> 
+
+            { 
+              [
+              	'Conheça a Linx',
+                'Ajude o algorítimo',
+                'Seus produtos',
+                'Compartilhe'
+              ]
+              .map((item,index,arr)=>{
+                return <div key={index} > <Button> {item} </Button> </div>
+              }) 
+            }
+        
+          </nav>
+        </div>
 );
 
 export default Menu;
