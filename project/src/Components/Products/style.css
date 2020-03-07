@@ -1,0 +1,36 @@
+.products .titleProduct{
+    text-align: center;
+    font: Bold 18px/16px Helvetica Neue;
+    letter-spacing: 0;
+    color: #888888;
+    opacity: 1;
+    margin:50px 0;
+}
+
+.products .flex-Products{
+    
+    width:100%; 
+    max-width: 931px;
+    margin:auto;
+    border:1px solid black;
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.products .flex-Products .cardProduct{
+    width: 201px;
+    height: 350px;
+    border:1px solid black;
+    margin-bottom: 30px;
+    
+}
+
+.moreProducts{
+    width: 260px;
+    height: 39px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
