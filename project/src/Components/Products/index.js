@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '../Button';
+import CardProduct from '../CardProduct';
 import './style.css'
 
 const Products = (props) =>(
@@ -10,9 +11,9 @@ const Products = (props) =>(
           <div class="flex-Products"> 
             {[1,2,3,4,5,6,7,8].map( (item, index )=>{
               return (
-                       <div key={item} class="cardProduct" >
-                             {item} 
-                       </div>
+                       <CardProduct key={item} className='cardProduct'  >
+                         {item} 
+                       </CardProduct>
                      )
             } )}
           </div>
