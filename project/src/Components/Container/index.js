@@ -3,10 +3,14 @@ import Header from '../Header';
 import Main from '../Main';
 import Footer from '../Footer';
 
-const Container = (props) => ( 
+const Container = ({href}) => ( 
 	  <div className="Container">
-	    <Header />
+		<Header
+		 href={href}
+		/>
+
 	    <Main />
+
 		<Footer />
 	  </div>
 );

@@ -6,13 +6,20 @@ class App extends React.Component{
   constructor(){
     super();
     this.state = {
-
+      href:[
+        'https://www.linx.com.br/',
+        'https://github.com/caiomyrapereira/frontend-developer-challenge/tree/ProjectReact',
+        '#products',
+        '#share'
+      ]
     };
   }
 
   render(){
     return (
-      <Container /> 
+      <Container 
+        href={this.state.href}
+      /> 
     );
   }
 }

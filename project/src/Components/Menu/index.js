@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css'
 import Button from '../Button';
 
-const Menu =(props)=>(
+const Menu =({href})=>(
         <div>
           <nav className="flex-menu"> 
 
@@ -14,7 +14,7 @@ const Menu =(props)=>(
                 'Compartilhe'
               ]
               .map((item,index,arr)=>{
-                return <div key={index} > <Button> {item} </Button> </div>
+                return <div key={index}  onClick={ ()=>window.location.href=href[index]  }    > <Button> {item} </Button> </div>
               }) 
             }
         

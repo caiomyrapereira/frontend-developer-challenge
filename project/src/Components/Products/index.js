@@ -4,11 +4,11 @@ import CardProduct from '../CardProduct';
 import './style.css'
 
 const Products = (props) =>(
-        <div class="products" >
+        <div id={'products'} className="products" >
 
-          <h1 class="titleProduct" > Sua seleção especial </h1> 
+          <h1 className="titleProduct" > Sua seleção especial </h1> 
 
-          <div class="flex-Products"> 
+          <div  className="flex-Products"> 
             {[1,2,3,4,5,6,7,8].map( (item, index )=>{
               return (
                        <CardProduct key={item} className='cardProduct'  >

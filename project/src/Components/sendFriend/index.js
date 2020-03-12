@@ -3,10 +3,10 @@ import './style.css'
 import Button from '../Button'
 
 const sendFriend = (props) =>(
-        <div className="sendFriend">
+        <div  id={'share'} className="sendFriend">
           <h1 className="titleShare" > Compartilhe a novidade </h1>
           <p className="notice"> Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora! </p>
-          <form className="send">
+          <form  className="send">
             <div className="flex-friend">
                <div className="nameFriend">
                  <label>Nome do seu amigo:</label>

@@ -1,12 +1,12 @@
 import React from 'react';
-import img from "./img.jpg"
+import Img from "./img.jpg"
 import './style.css';
 import Button from '../Button';
 
 const CardProduct = (props) => (
-        <div key={props.key}  className={props.className} >
+        <div   className={props.className} >
           <div className={'imgProduct'}>
-            <img src={img}  />
+            <img  alt={'name product'} src={Img}  />
           </div>
           <div className={'textProduct'}>
             <h1 className={'nameProduct'} >
@@ -31,7 +31,7 @@ const CardProduct = (props) => (
               Comprar
             </Button>
           </div>
-        </div>
+        </div>  
 );
 
 export default CardProduct;
