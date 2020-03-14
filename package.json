@@ -1,0 +1,25 @@
+{
+  "name": "frontend-developer-challenge",
+  "version": "1.0.0",
+  "description": "$cd project   \r $npm install   \r $npm start  ou $nodemon server.js   \r local do projeto :http://localhost:8080",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^1.11.0",
+    "jquery-easy-loading": "^2.0.0-rc.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiomyrapereira/frontend-developer-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caiomyrapereira/frontend-developer-challenge/issues"
+  },
+  "homepage": "https://github.com/caiomyrapereira/frontend-developer-challenge#readme"
+}

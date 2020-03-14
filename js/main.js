@@ -1,4 +1,4 @@
-(function(wind, doc) {
+(function(wind, doc, $) {
 
     'use strict';
 
@@ -80,4 +80,4 @@
 
     app.initialize();
 
-})(window, document)
+})(window, document, $)
