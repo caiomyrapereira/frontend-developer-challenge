@@ -3,10 +3,13 @@ import './style.css';
 import SendFriend from '../sendFriend';
 import Products from '../Products';
 
-const Main = (props)=>(
+const Main = ({products, moreProducts})=>(
         <div className="main">
           
-          <Products />
+          <Products 
+           products = {products}
+           moreProducts={moreProducts}
+          />
           
           <SendFriend />
           

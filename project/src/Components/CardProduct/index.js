@@ -1,29 +1,27 @@
 import React from 'react';
-import Img from "./img.jpg"
 import './style.css';
 import Button from '../Button';
 
-const CardProduct = (props) => (
-        <div   className={props.className} >
+const CardProduct = ({className, product}) => (
+        <div   className={className} >
           <div className={'imgProduct'}>
-            <img  alt={'name product'} src={Img}  />
+            <img  alt={'name product'} src={product.image}  />
           </div>
           <div className={'textProduct'}>
             <h1 className={'nameProduct'} >
-              Nome do produto
+              {product.name}
             </h1>
             <p className={'productDescrib'} > 
-              Descrição do produto um pouco maior, 
-              com duas linhas ou três que explica melhor do que se trata.
+              {product.description}
             </p>
             <p className={'beforePrice'}>
-              De: R$23,99
+              De: R${product.oldPrice}
             </p>
             <p className={'currentPrice'}>
-              Por: R$19,99
+              Por: R${product.price}
             </p>
             <p className={'parcelPrice'} >
-              ou 2x de R$9,99
+              ou {product.installments.count}x de R${product.installments.value}
             </p>
           </div>
           <div className={'buttonPurchaseProduct'}> 

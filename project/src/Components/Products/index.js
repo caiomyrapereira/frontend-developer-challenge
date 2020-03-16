@@ -3,23 +3,21 @@ import Button from '../Button';
 import CardProduct from '../CardProduct';
 import './style.css'
 
-const Products = (props) =>(
+const Products = ({products, moreProducts}) =>(
         <div id={'products'} className="products" >
 
           <h1 className="titleProduct" > Sua seleção especial </h1> 
 
           <div  className="flex-Products"> 
-            {[1,2,3,4,5,6,7,8].map( (item, index )=>{
+            {products.map( (item, index )=>{
               return (
-                       <CardProduct key={item} className='cardProduct'  >
-                         {item} 
-                       </CardProduct>
+                       <CardProduct key={item.id} className='cardProduct'  product={item}   />
                      )
             } )}
           </div>
 
           <center>
-            <Button className={'moreProducts'}> Ainda mais produtos aqui! </Button>
+            <Button className={'moreProducts'} onClick={moreProducts} > Ainda mais produtos aqui! </Button>
           </center>
 
         </div>
