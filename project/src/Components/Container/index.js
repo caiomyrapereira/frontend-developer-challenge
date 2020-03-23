@@ -1,10 +1,10 @@
-import React from 'react';
+import React,{Fragment} from 'react';
 import Header from '../Header';
 import Main from '../Main';
 import Footer from '../Footer';
 
 const Container = ({href , products, moreProducts}) => ( 
-	  <div className="Container">
+	  <Fragment>
 		<Header
 		 href={href}
 		/>
@@ -15,7 +15,7 @@ const Container = ({href , products, moreProducts}) => (
 		/>
 
 		<Footer />
-	  </div>
+	  </Fragment>
 );
 
 export default Container;

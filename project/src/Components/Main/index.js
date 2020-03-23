@@ -4,7 +4,7 @@ import SendFriend from '../sendFriend';
 import Products from '../Products';
 
 const Main = ({products, moreProducts})=>(
-        <div className="main">
+        <main className="main">
           
           <Products 
            products = {products}
@@ -13,7 +13,7 @@ const Main = ({products, moreProducts})=>(
           
           <SendFriend />
           
-        </div>
+        </main>
 );
 
 export default Main;
